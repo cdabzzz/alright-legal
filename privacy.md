@@ -74,8 +74,8 @@ We may update this policy occasionally. We'll notify you of significant changes 
 ## Contact Us
 
 Questions about privacy? Contact us at:
-- **Email:** privacy@alright.app
-- **Website:** https://alright.app/privacy
+- **GitHub Issues:** https://github.com/cdabzzz/alright-legal/issues
+- **Website:** https://cdabzzz.github.io/alright-legal/
 
 ---
 
