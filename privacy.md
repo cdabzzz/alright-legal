@@ -1,6 +1,6 @@
 # Privacy Policy for Alright
 
-**Last Updated:** February 7, 2026
+**Last Updated:** February 12, 2026
 
 ## Overview
 
@@ -39,7 +39,7 @@ We do not sell, rent, or share your personal data with third parties.
 
 We use the following services:
 - **Apple Push Notification Service (APNs):** To deliver notifications to your device
-- **Anthropic Claude API:** To generate AI insights from anonymized, aggregated data (data is not retained by Anthropic)
+- **OpenRouter:** An AI routing service that processes requests to generate insights. Data is transmitted securely and subject to [OpenRouter's privacy policy](https://openrouter.ai/privacy). We use models that do not retain or train on your data.
 - **Open-Meteo:** For weather data (receives only approximate coordinates, no personal information)
 
 ## Data Retention

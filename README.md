@@ -5,6 +5,7 @@ This repository hosts legal documents and provides issue tracking for [Alright](
 ## Documents
 
 - [Privacy Policy](privacy.md)
+- [Terms of Service](terms.md)
 
 ## Support
 
