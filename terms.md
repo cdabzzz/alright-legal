@@ -1,10 +1,12 @@
 # Terms of Service for Alright
 
-**Last Updated:** February 12, 2026
+**Last Updated:** September 19, 2026
 
 ## Agreement to Terms
 
 By downloading, installing, or using Alright ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+
+This description applies to the on-device AI version, 1.0 build 4, being prepared for App Store review. It does not mean that this build is available to download.
 
 ## Description of Service
 
@@ -12,7 +14,7 @@ Alright is a personal mental health tracking application that allows you to:
 - Log mood, energy, and anxiety levels
 - Record voice notes about your emotional state
 - View trends and patterns in your data
-- Generate AI-powered insights from your check-ins
+- Generate optional on-device AI summaries from your check-ins, requiring an Apple Intelligence-compatible device, Apple Intelligence enabled and its model ready. Language and region availability may vary; there is no cloud fallback
 - Export data for personal use or to share with healthcare providers
 
 ## Important Health Disclaimer
@@ -27,9 +29,11 @@ Alright is a personal mental health tracking application that allows you to:
 
 ## Subscriptions and Payments
 
-### Free Trial
-- New users receive a 10-day free trial with full access to all features
-- You will not be charged during the trial period
+### Free App Access
+- New users receive 10 days of free app access from first launch; no purchase is required
+- Free access does not automatically enroll you in a subscription or charge you when it ends
+- If you choose to purchase a subscription, payment begins when you confirm the purchase with Apple
+- AI availability requirements apply during both free and paid access
 
 ### Subscription Terms
 - Subscriptions are billed monthly or annually through Apple's App Store
@@ -57,10 +61,10 @@ You agree to:
 
 ## Data and Privacy
 
-Your use of the App is also governed by our [Privacy Policy](/alright-legal/privacy). Key points:
-- Your check-in data is stored on your device and your iCloud account
+Your use of the App is also governed by our [Privacy Policy](https://cdabzzz.github.io/alright-legal/privacy.html). Key points:
+- Your check-in data is stored locally; this version does not implement iCloud synchronization
 - We do not have access to your personal health data
-- AI insights are generated using third-party services (OpenRouter) with your explicit consent
+- AI summaries are generated locally using Apple's on-device model after enablement, with no cloud sharing or fallback
 
 ## Disclaimer of Warranties
 

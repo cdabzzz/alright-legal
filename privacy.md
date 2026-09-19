@@ -1,106 +1,85 @@
 # Privacy Policy for Alright
 
-**Last Updated:** February 14, 2026
+**Last updated: September 19, 2026.** Applies to the on-device AI version,
+1.0 build 4, being prepared for App Store review. Earlier test builds may use
+different processing; this policy does not retroactively describe those builds.
 
 ## Overview
 
-Alright is a mental health check-in app designed with privacy as a core principle. Most check-in data stays on your device and in your personal iCloud account.  
-If you choose to use AI Insights, selected check-in data is sent to third-party AI services only after you grant consent in-app.
+Alright is a personal check-in app. The app stores your check-ins and notes locally.
+It does not operate an account system, advertising network, analytics service or
+cloud AI backend for this version.
 
-## What Data We Collect
+## Local Information
 
-### Data Stored on Your Device & iCloud (Not Accessible to Us)
-- **Check-in data:** Your mood, energy, and anxiety ratings
-- **Voice notes:** Audio recordings you create during check-ins
-- **Text notes:** Written reflections you add to check-ins
-- **Timestamps:** When you complete check-ins
-- **Preferences:** Your name, wake time, bed time, and notification settings
+Your profile name, wake/bed schedule, check-in timestamps, mood/energy/anxiety
+ratings, written notes and recorded audio are stored on your device. This version
+does not implement iCloud synchronization. Device backups may include app data
+according to your Apple device and backup settings; Alright does not access them.
 
-This data syncs via Apple's iCloud if you have it enabled. We do not have access to your iCloud data.
+Reminder notifications are scheduled locally. Alright does not send a push token,
+location or notification schedule to a developer-operated server.
 
-### Data We Store on Our Servers
-- **Push notification token:** A random identifier Apple assigns to your device so we can send you check-in reminders. This token cannot identify you personally.
-- **Timezone and notification schedule:** So we send notifications at appropriate times for you.
+## On-Device AI Insights
 
-That's it. We do not store your check-ins, mood data, notes, or any personal health information on our servers.
+AI Insights uses Apple's on-device Foundation Models framework. When you enable
+the feature and explicitly tap Generate or Regenerate, it processes average
+ratings, the selected period's check-in count, and up to six recent written notes
+or voice-note transcriptions, shortened for the local model's context limit.
+Your profile name, raw audio and individual check-in dates are not model inputs.
 
-### Data Sent to Third-Party AI Services (Only with Your Consent)
-When you use AI Insights and tap **"I Consent"** in the in-app disclosure, Alright sends the following data for insight generation:
-- **Mood ratings** (1-5 scale)
-- **Energy ratings** (1-5 scale)
-- **Anxiety ratings** (1-5 scale)
-- **Voice note transcriptions** (if you recorded voice notes)
-- **Aggregated weekly patterns** derived from your check-ins
+This input and the generated summaries are not sent to Alright's developer,
+OpenRouter, Novita or any other cloud AI service. There is no cloud fallback.
+Generated summaries are held in memory for display and are not saved by the app.
 
-If you do not consent, this data is not sent for AI insight generation.
+An Apple Intelligence-compatible device with Apple Intelligence enabled and its
+model ready is required. Availability also depends on language and region. Model
+downloads are handled by Apple's system software. If unavailable, the app explains
+why and leaves check-ins, notes, charts and exports available under the app's
+access/subscription terms.
 
-### Data Processed Temporarily (Not Stored by Alright)
-- **AI insight request payloads:** Processed by third-party AI services and not stored by Alright's own backend.
-- **Approximate location:** If you enable weather context, we use your approximate location to fetch weather data. Location is never stored.
+You can disable AI Insights in Settings > Privacy. This blocks further generation
+and discards any in-progress result. AI summaries may be inaccurate and are not
+medical advice, diagnosis, treatment, or an emergency service.
 
-## How We Use Your Data
+## Voice Notes
 
-- **Push notification tokens:** To send you scheduled check-in reminders
-- **Schedule preferences:** To time notifications appropriately
-- **AI insight data (with consent):** To generate AI-powered summaries and pattern insights
-- **Weather context (optional):** To provide contextual weather information in the app
+Recording requires microphone permission. Transcription uses Apple's Speech
+framework with on-device recognition required, not cloud speech fallback.
+Availability depends on device and language support. Recorded audio stays in the
+app's local storage; text transcriptions can be included in local AI generation.
 
-## Data Sharing
+## Purchases
 
-We do not sell, rent, or share your personal data with third parties.
+Apple processes subscription payments. StoreKit retrieves product and subscription
+information from Apple; Alright does not receive your payment-card details.
+The app stores the start of free access in Keychain to preserve it across local
+resets. Deleting personal app data does not restart free access, cancel an Apple
+subscription, or delete Apple's transaction records. Manage subscriptions through
+your Apple account.
 
-We use the following third-party services:
-- **Apple Push Notification Service (APNs):** Receives device push token data to deliver reminders.
-- **OpenRouter:** Receives AI insight request data described above and routes requests to third-party AI model providers.
-- **Third-party AI model providers via OpenRouter:** Process AI insight request data to generate responses.
-- **Open-Meteo:** Receives approximate coordinates only (if weather context is enabled).
+## Export, Deletion And Retention
 
-All third-party transmissions are encrypted via HTTPS.  
-OpenRouter privacy details: [https://openrouter.ai/privacy](https://openrouter.ai/privacy)
+- Local records and recordings remain until deleted or removed with app data.
+- Settings > Export My Data creates JSON containing your profile and check-ins.
+  It includes voice-file paths, not audio file contents. Sharing the export sends
+  it to the destination you select, under that destination's privacy practices.
+- Settings > Delete All Data deletes local database records, app-owned recordings
+  and temporary JSON exports, disables AI, and clears reminder notifications.
+  If deletion fails, the app reports an error so you can retry.
+- Copies you export and device backups are managed separately by you and their
+  providers; local deletion cannot recall those copies.
+- No check-in content, AI requests or AI responses are retained on an Alright server.
 
-## AI Consent and Control
+## Tracking And External Services
 
-- **Permission before sharing:** Alright asks for explicit consent before sending AI insight data to OpenRouter/model providers.
-- **What you see before consent:** The app discloses what data is sent and who receives it.
-- **Declining consent:** You can decline and continue using Alright without AI Insights.
-- **Revoking consent:** You can revoke AI consent anytime in app Settings, which prevents future AI insight data transmission.
+This app has no advertising or analytics SDK and does not sell your information
+or use it for cross-app tracking. On-device processing is not transmission to a
+cloud AI service. Apple services, your chosen export destinations and links you
+open, including the support website, have their own privacy policies.
 
-## Data Retention
+## Contact
 
-- **On-device data:** Stored until you delete it or uninstall the app
-- **iCloud data:** Managed by your iCloud settings
-- **Push tokens:** Retained while you use the app; deleted when you uninstall or disable notifications
-- **AI insight requests:** Alright does not retain AI request payloads on its own backend after processing. Third-party retention is governed by their policies.
-
-## Your Rights
-
-You can:
-- **Export your data:** Download all your check-in data as a JSON file from Settings
-- **Delete your data:** Remove all data from the app and our servers from Settings
-- **Disable notifications:** Stop all push notifications at any time
-- **Opt out of AI insights:** Use the app without consenting to AI data sharing
-- **Revoke AI consent:** Turn off AI consent anytime in Settings
-
-## Children's Privacy
-
-Alright is not intended for children under 13. We do not knowingly collect data from children under 13.
-
-## Security
-
-- All data transmitted to our servers uses HTTPS encryption
-- Push tokens are stored securely and cannot be used to identify you
-- AI insight data is sent only after user consent and only for generating requested insights
-
-## Changes to This Policy
-
-We may update this policy occasionally. We'll notify you of significant changes through the app.
-
-## Contact Us
-
-Questions about privacy? Contact us at:
-- **GitHub Issues:** https://github.com/cdabzzz/alright-legal/issues
-- **Website:** https://cdabzzz.github.io/alright-legal/
-
----
-
-*Alright is designed so your mental health data stays yours. We built it this way on purpose.*
+Visit [Alright Support](https://cdabzzz.github.io/alright-legal/#support).
+Do not include health information, private notes, payment information or credentials
+in public GitHub issues.
