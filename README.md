@@ -3,8 +3,8 @@
 Alright is a personal-wellness check-in app for iPhone and iPad. Record mood,
 energy and anxiety ratings, add context, and review your history.
 
-**Updated September 19, 2026.** This page describes the on-device AI version,
-1.0 build 4, being prepared for App Store review. It is not an announcement that
+**Updated September 20, 2026.** This page describes the on-device AI version,
+1.0 build 5, being prepared for App Store review. It is not an announcement that
 this build is available to download. Earlier test builds may behave differently.
 
 ## Your Data
@@ -52,7 +52,9 @@ not implemented. Share only with a destination you trust.
 
 Delete All Data removes local records, app-owned recordings and temporary exports,
 and disables AI. Exported copies and device backups must be managed separately.
-Deleting app data does not cancel an Apple subscription or restart free access.
+Deleting app data does not cancel an Apple subscription or reset eligibility for
+an Apple introductory offer. Existing personal history, export and deletion
+controls remain accessible without an active subscription.
 
 ### How do reminders and voice notes work?
 
@@ -60,14 +62,27 @@ Reminders are scheduled locally; notification permission is optional. Voice
 recording requires microphone permission. Transcription requires on-device speech
 recognition support for your device and language; no cloud speech fallback is used.
 
-### How do free access and subscriptions work?
+### How do free trials and subscriptions work?
 
-New users receive 10 days of free app access from first launch, with no purchase
-required and no automatic subscription or charge at the end. Optional monthly
-and yearly auto-renewing subscriptions are shown in Settings > Account > Upgrade.
-Prices are localized by the App Store. Payment begins when you confirm a purchase
-with Apple, not automatically at the end of free access. Model availability still
-limits AI Insights during free or paid access.
+Eligible new subscribers receive a two-week (14-day) free trial of either the
+monthly or yearly subscription through Apple. The trial begins only when you
+confirm the subscription with Apple. Installing or opening Alright does not start
+a trial. Apple determines eligibility; each person can redeem one introductory
+offer in the Alright subscription group, even if they change plans.
+
+After the trial, the subscription automatically renews at $4.99/month or
+$39.99/year in the US unless canceled at least 24 hours before the trial ends.
+Prices vary by country and are localized by the App Store. If you are ineligible
+or an introductory offer is unavailable, the app shows the regular subscription
+price and payment begins when you confirm the purchase with Apple.
+
+An active subscription, including its free trial, is required for new check-ins, trend charts
+and AI Insights. Your existing personal history, export and deletion controls
+remain accessible without a subscription. AI Insights still requires supported
+hardware, settings, language and a ready model during both trial and paid access.
+
+Subscriptions automatically renew unless canceled at least 24 hours before the
+end of the current period. Plans are shown in Settings > Account > Upgrade.
 
 Manage or cancel subscriptions in your Apple account settings. For billing and
 refund requests, use [Apple's purchase support](https://support.apple.com/billing).

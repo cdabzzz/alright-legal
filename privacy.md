@@ -1,8 +1,9 @@
 # Privacy Policy for Alright
 
-**Last updated: September 19, 2026.** Applies to the on-device AI version,
-1.0 build 4, being prepared for App Store review. Earlier test builds may use
-different processing; this policy does not retroactively describe those builds.
+**Last updated: September 20, 2026.** Applies to the on-device AI version,
+1.0 build 5, being prepared for App Store review. This page does not announce
+that the build is available to download. Earlier test builds may use different
+processing; this policy does not retroactively describe those builds.
 
 ## Overview
 
@@ -51,12 +52,17 @@ app's local storage; text transcriptions can be included in local AI generation.
 
 ## Purchases
 
-Apple processes subscription payments. StoreKit retrieves product and subscription
-information from Apple; Alright does not receive your payment-card details.
-The app stores the start of free access in Keychain to preserve it across local
-resets. Deleting personal app data does not restart free access, cancel an Apple
-subscription, or delete Apple's transaction records. Manage subscriptions through
-your Apple account.
+Apple processes subscription payments. StoreKit retrieves product, introductory-offer
+eligibility and subscription information from Apple; Alright does not receive your
+payment-card details. Apple determines eligibility for the two-week introductory
+free trial, which starts only after you confirm a subscription with Apple. Access
+is based on the Apple subscription entitlement, including any active free trial,
+rather than an app-managed timer starting at first launch.
+
+Deleting personal app data does not reset Apple's introductory-offer eligibility,
+cancel an Apple subscription, or delete Apple's transaction records. Manage
+subscriptions through your Apple account. Existing personal history, export and
+deletion controls remain accessible without an active subscription.
 
 ## Export, Deletion And Retention
 
