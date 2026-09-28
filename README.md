@@ -1,20 +1,22 @@
 # Alright - Support & Privacy
 
-Alright is a personal-wellness check-in app for iPhone and iPad. Record mood,
-energy and anxiety ratings, add context, and review your history.
+Alright is a personal-wellness check-in app for iPhone. Record mood, energy and
+anxiety ratings, capture text or voice thoughts, review your history, and prepare
+for therapy. The app also runs in iPad compatibility mode.
 
-**Updated September 20, 2026.** This page describes the on-device AI version,
-1.0 build 5, being prepared for App Store review. It is not an announcement that
-this build is available to download. Earlier test builds may behave differently.
+**Updated September 28, 2026.** This page describes Alright version 1.1.0,
+being prepared for App Store review. It is not an announcement that this
+version is available to download. Earlier versions and test builds may behave differently.
 
 ## Your Data
 
-Check-ins, notes and recordings are stored locally. This version does not implement
-iCloud synchronization. Device backups depend on your Apple settings.
+Check-ins, notes, recordings, remembered topics, saved therapy briefs and session
+takeaways are stored locally. This version does not implement iCloud synchronization.
+Device backups depend on your Apple settings.
 
-Optional AI Insights uses Apple's on-device model. Your ratings, notes and generated
-summaries are not sent to a developer server or cloud AI service. There is no cloud
-fallback. [Read the full privacy policy](https://cdabzzz.github.io/alright-legal/privacy.html).
+Optional AI Insights and therapy summaries use Apple's on-device model. Your ratings,
+notes and generated summaries are not sent to a developer server or cloud AI service.
+There is no cloud fallback. [Read the full privacy policy](https://cdabzzz.github.io/alright-legal/privacy.html).
 
 ## Support
 
@@ -36,22 +38,53 @@ It requires an Apple Intelligence-compatible device, Apple Intelligence enabled,
 and its model downloaded and ready. Supported languages and regions vary. Check
 Apple Intelligence in device Settings, then use Check Availability in Insights.
 Check-ins, notes, charts and exports remain available under your app access terms
-when AI is unavailable. Generated summaries may be inaccurate.
+when AI is unavailable. Remembered topics, original entries, recorded ratings and
+session history remain available without AI. Generated summaries may be inaccurate.
 
 ### How do I turn AI off?
 
 Open the Home gear > Settings > Privacy > Disable AI Insights. This blocks further
-generation and discards any in-progress result. Enabling it again requires the
-local-processing explanation. No cloud service is enabled by either choice.
+generation, discards any in-progress result, and clears the reusable note-summary
+cache. Saved therapy briefs, session history and original records remain available.
+Enabling AI again requires the local-processing explanation. No cloud service is
+enabled by either choice.
+
+### How can I prepare for therapy?
+
+Use **Capture a thought** to save text or a voice note without entering ratings.
+Mark **Remember this** on a new or existing note when you want to discuss it at
+your next session. Unresolved topics carry forward until you mark them discussed
+or remove the flag.
+
+Tap **Prep for therapy** and set the date of your last session on first use, or
+choose **I haven't had one yet**. The brief puts remembered topics first and
+summarizes your recorded information since that session. Optional on-device AI
+groups related notes into themes. Missing or partial transcriptions and incomplete
+summaries are identified, and original entries remain available.
+
+You can reorder talking points, edit wording, and hide a topic from the current
+brief. Hiding a topic does not mark it discussed. After your appointment, use
+**Had my session** to record the date, select discussed topics, and optionally add
+a text or voice takeaway. The completed brief is saved in session history.
 
 ### How do I export or delete my data?
 
-Settings > Privacy > Export My Data creates a JSON file containing your profile
-and check-ins. It includes voice-file paths, not the audio itself. PDF export is
-not implemented. Share only with a destination you trust.
+Settings > Privacy > Export My Data creates a JSON file containing your profile,
+check-ins, standalone notes and therapy state, including saved session briefs and
+takeaways. It includes voice-file paths, not the audio itself.
 
-Delete All Data removes local records, app-owned recordings and temporary exports,
-and disables AI. Exported copies and device backups must be managed separately.
+In therapy prep, **Choose what to share** lets you select talking points and
+sections, preview a PDF or text version, and then choose a sharing destination.
+Hidden or unselected topics and their linked generated themes are excluded.
+Review your edited wording in the preview, since it may still mention a topic you
+have hidden or unselected. Nothing is shared automatically.
+
+Deleting an individual note or check-in removes the live original. Saved session
+briefs retain historical copies and any recordings they reference. **Delete All
+Data** removes those histories and recordings as well as other local records,
+app-owned recordings, reusable summary caches and temporary exports, and disables AI.
+Exported copies and device backups must be managed separately.
+
 Deleting app data does not cancel an Apple subscription or reset eligibility for
 an Apple introductory offer. Existing personal history, export and deletion
 controls remain accessible without an active subscription.
@@ -76,13 +109,16 @@ Prices vary by country and are localized by the App Store. If you are ineligible
 or an introductory offer is unavailable, the app shows the regular subscription
 price and payment begins when you confirm the purchase with Apple.
 
-An active subscription, including its free trial, is required for new check-ins, trend charts
-and AI Insights. Your existing personal history, export and deletion controls
-remain accessible without a subscription. AI Insights still requires supported
-hardware, settings, language and a ready model during both trial and paid access.
+An active subscription, including its free trial, is required for new check-ins,
+new standalone thoughts, trend charts, AI Insights and AI therapy summaries.
+Your existing personal history, remembered-topic controls, preparation essentials,
+PDF/text sharing and deletion controls remain accessible without a subscription.
+An optional post-session takeaway can be saved when completing a session.
+AI still requires supported hardware, settings, language and a ready model during
+both trial and paid access.
 
 Subscriptions automatically renew unless canceled at least 24 hours before the
-end of the current period. Plans are shown in Settings > Account > Upgrade.
+end of the current period. Plans are shown in Settings > Account > View Plans.
 
 Manage or cancel subscriptions in your Apple account settings. For billing and
 refund requests, use [Apple's purchase support](https://support.apple.com/billing).
