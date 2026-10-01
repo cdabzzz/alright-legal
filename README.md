@@ -4,9 +4,9 @@ Alright is a personal-wellness check-in app for iPhone. Record mood, energy and
 anxiety ratings, capture text or voice thoughts, review your history, and prepare
 for therapy. The app also runs in iPad compatibility mode.
 
-**Updated September 28, 2026.** This page describes Alright version 1.1.0,
+**Updated September 30, 2026.** This page describes Alright version 1.1.1,
 being prepared for App Store review. It is not an announcement that this
-version is available to download. Earlier versions and test builds may behave differently.
+version is available to download. The public 1.1.0 version uses the previous subscription model until the unlocked update is released. Earlier versions and test builds may behave differently.
 
 ## Your Data
 
@@ -37,7 +37,7 @@ local emergency services or a qualified crisis service.
 It requires an Apple Intelligence-compatible device, Apple Intelligence enabled,
 and its model downloaded and ready. Supported languages and regions vary. Check
 Apple Intelligence in device Settings, then use Check Availability in Insights.
-Check-ins, notes, charts and exports remain available under your app access terms
+Check-ins, notes, charts and exports remain available without a subscription in version 1.1.1
 when AI is unavailable. Remembered topics, original entries, recorded ratings and
 session history remain available without AI. Generated summaries may be inaccurate.
 
@@ -85,9 +85,7 @@ Data** removes those histories and recordings as well as other local records,
 app-owned recordings, reusable summary caches and temporary exports, and disables AI.
 Exported copies and device backups must be managed separately.
 
-Deleting app data does not cancel an Apple subscription or reset eligibility for
-an Apple introductory offer. Existing personal history, export and deletion
-controls remain accessible without an active subscription.
+Deleting app data does not cancel a previous Apple subscription or delete Apple transaction records. All features in version 1.1.1 remain available without a subscription.
 
 ### How do reminders and voice notes work?
 
@@ -95,33 +93,34 @@ Reminders are scheduled locally; notification permission is optional. Voice
 recording requires microphone permission. Transcription requires on-device speech
 recognition support for your device and language; no cloud speech fallback is used.
 
-### How do free trials and subscriptions work?
+### How does the one-time purchase work?
 
-Eligible new subscribers receive a two-week (14-day) free trial of either the
-monthly or yearly subscription through Apple. The trial begins only when you
-confirm the subscription with Apple. Installing or opening Alright does not start
-a trial. Apple determines eligibility; each person can redeem one introductory
-offer in the Alright subscription group, even if they change plans.
+Version 1.1.1 includes all features with the app. The planned US download price is
+$1.99 once, with no recurring Alright payment. The App Store shows the price for
+your country or region before download. Price activation is coordinated with the
+unlocked update; this page does not claim that the new build or price is live.
+Existing users receive the update without another purchase, including users who
+previously downloaded the app for free or had a subscription.
 
-After the trial, the subscription automatically renews at $4.99/month or
-$39.99/year in the US unless canceled at least 24 hours before the trial ends.
-Prices vary by country and are localized by the App Store. If you are ineligible
-or an introductory offer is unavailable, the app shows the regular subscription
-price and payment begins when you confirm the purchase with Apple.
+All records and optional AI processing remain on your device. No cloud service
+or account is added. On-device AI still needs compatible hardware, system settings,
+language and a ready model; basic prep and records work without it.
 
-An active subscription, including its free trial, is required for new check-ins,
-new standalone thoughts, trend charts, AI Insights and AI therapy summaries.
-Your existing personal history, remembered-topic controls, preparation essentials,
-PDF/text sharing and deletion controls remain accessible without a subscription.
-An optional post-session takeaway can be saved when completing a session.
-AI still requires supported hardware, settings, language and a ready model during
-both trial and paid access.
+### What if I previously subscribed?
 
-Subscriptions automatically renew unless canceled at least 24 hours before the
-end of the current period. Plans are shown in Settings > Account > View Plans.
+Version 1.1.1 unlocks all features regardless of a previous subscription's status.
+Your saved records and access continue. Subscription retirement is coordinated
+with release; removing purchase screens alone does not stop an Apple renewal.
+Check the renewal status in your Apple account, or use Settings > App access >
+Manage a previous subscription with Apple. On version 1.1.0, existing Apple trial
+or paid access remains subject to that version's subscription gate; update to
+1.1.1 once it is available.
 
-Manage or cancel subscriptions in your Apple account settings. For billing and
-refund requests, use [Apple's purchase support](https://support.apple.com/billing).
+Until retired, the legacy monthly ($4.99 US) and yearly ($39.99 US) subscriptions
+renew under Apple's existing terms. Eligible introductory trials last 14 days
+and start on Apple purchase confirmation. Manage or cancel through Apple, and
+use [Apple's purchase support](https://support.apple.com/billing) for billing or
+refund requests. No automatic refund or cancellation from an app update is promised.
 
 ## Legal Documents
 
