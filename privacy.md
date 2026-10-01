@@ -1,6 +1,6 @@
 # Privacy Policy for Alright
 
-**Last updated: September 28, 2026.** Applies to Alright version 1.1.0,
+**Last updated: September 30, 2026.** Applies to Alright version 1.1.1,
 being prepared for App Store review. This page does not announce that this
 version is available to download. Earlier versions and test builds may behave
 differently; this policy does not retroactively describe those builds.
@@ -51,8 +51,7 @@ an original entry changes.
 An Apple Intelligence-compatible device with Apple Intelligence enabled and its
 model ready is required. Availability also depends on language and region. Model
 downloads are handled by Apple's system software. If unavailable, the app explains
-why and leaves check-ins, notes, charts and exports available under the app's
-access/subscription terms.
+why and leaves check-ins, notes, charts and exports available without a subscription in version 1.1.1.
 
 You can disable AI Insights in Settings > Privacy. This blocks further generation
 and discards any in-progress result. Disabling AI also clears the reusable summary
@@ -69,17 +68,17 @@ app's local storage; text transcriptions can be included in local AI generation.
 
 ## Purchases
 
-Apple processes subscription payments. StoreKit retrieves product, introductory-offer
-eligibility and subscription information from Apple; Alright does not receive your
-payment-card details. Apple determines eligibility for the two-week introductory
-free trial, which starts only after you confirm a subscription with Apple. Access
-is based on the Apple subscription entitlement, including any active free trial,
-rather than an app-managed timer starting at first launch.
+Apple processes the upfront app purchase. Version 1.1.1 contains no subscription
+purchase flow and does not retrieve StoreKit products or use subscription
+entitlements to restrict features. Alright does not receive payment-card details.
+Existing users retain access and receive the unlocked update without another purchase.
 
-Deleting personal app data does not reset Apple's introductory-offer eligibility,
-cancel an Apple subscription, or delete Apple's transaction records. Manage
-subscriptions through your Apple account. Existing personal history, export and
-deletion controls remain accessible without an active subscription.
+Older 1.1.0 installations use StoreKit to retrieve subscription products, offer
+eligibility and verified entitlements from Apple. The retirement of those products
+is coordinated with the unlocked release. Removing purchase screens or deleting
+local app data does not cancel an Apple subscription or delete Apple transaction
+records. Settings in version 1.1.1 links to Apple to manage previous subscriptions;
+billing and refund requests remain with Apple.
 
 ## Export, Deletion And Retention
 

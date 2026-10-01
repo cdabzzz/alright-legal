@@ -1,12 +1,12 @@
 # Terms of Service for Alright
 
-**Last Updated:** September 20, 2026
+**Last Updated:** September 30, 2026
 
 ## Agreement to Terms
 
 By downloading, installing, or using Alright ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
 
-This description applies to the on-device AI version, 1.0 build 5, being prepared for App Store review. It does not mean that this build is available to download. Earlier test builds may behave differently.
+This description applies to the unlocked on-device version, 1.1.1 build 8, being prepared for App Store review. It does not mean that this build is available to download. Earlier test builds may behave differently.
 
 ## Description of Service
 
@@ -27,36 +27,32 @@ Alright is a personal mental health tracking application that allows you to:
 - If you are experiencing a mental health crisis, please contact a mental health professional, call your local emergency services, or contact a crisis helpline immediately
 - Always consult with qualified healthcare providers regarding any mental health concerns
 
-## Subscriptions and Payments
+## App Purchase and Previous Subscriptions
 
-### Apple Free Trial
+Version 1.1.1 includes all local features with the app, without a subscription.
+The intended upfront US download price is $1.99. Local prices may differ and are
+shown by the App Store before purchase. The price is activated in coordination
+with the unlocked release; this document does not announce that the update or
+price is live. Existing users receive the update without another app purchase.
 
-- Eligible new subscribers receive a two-week (14-day) introductory free trial of either the monthly or yearly subscription through Apple
-- The trial begins only after you confirm the subscription with Apple; installing or opening the App does not start a trial
-- Apple determines eligibility. Each person can redeem one introductory offer per subscription group; changing between the monthly and yearly plans does not provide a second trial
-- After the trial, the subscription automatically renews at the selected plan's regular price unless canceled at least 24 hours before the trial ends
-- If you are ineligible or an introductory offer is unavailable, the App shows the regular subscription price and payment begins at purchase confirmation
-- Deleting local app data or reinstalling the App does not reset Apple's introductory-offer eligibility
+Previously paid terms and saved records remain available. No service is shut down.
+The monthly and yearly subscription products are retired in coordination with the
+unlocked release to stop new signups and renewals. Removing subscription screens,
+uninstalling the app or deleting app data alone does not cancel an Apple renewal.
+Manage previous subscriptions and check renewal status in your Apple account.
 
-### Subscription Terms
+Until retired, the previous 1.1.0 version uses Apple's existing subscription terms:
+US $4.99/month or $39.99/year, with a 14-day introductory trial where Apple confirms
+eligibility. Trial starts at Apple purchase confirmation; subscriptions renew unless
+canceled at least 24 hours before the current period ends. Older versions retain
+their access gate; update to 1.1.1 when available to use all features without it.
 
-- Subscriptions are billed monthly or annually through Apple's App Store
-- US prices are $4.99/month or $39.99/year. Prices vary by country; the App and Apple's confirmation display the localized price and billing period
-- When an eligible free trial applies, the first payment follows the trial unless canceled as described above. Otherwise, payment is charged to your Apple account at confirmation of purchase
-- Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period
-- Your account will be charged for renewal within 24 hours prior to the end of the current period
-- You can manage and cancel subscriptions in your App Store account settings
-- Deleting local data or uninstalling the App does not cancel a subscription
+On-device AI requires compatible hardware, enabled Apple Intelligence, supported
+language/region and a ready model. A purchase does not make unsupported hardware
+compatible. Records, charts, basic therapy prep and sharing work without AI.
 
-### Access and Your Existing Data
-
-- An active Apple subscription, including its introductory free trial, is required for new check-ins, trend charts and AI Insights
-- Existing personal history, data export and data deletion remain accessible without an active subscription
-- AI availability requirements apply during both trial and paid access; subscribing does not make an unsupported device AI-compatible
-
-### Refunds
-- All purchases are handled through Apple and subject to Apple's refund policies
-- Contact Apple Support for refund requests
+Apple handles purchases and refund requests under its policies. No automatic
+refund from the app update is promised. Contact Apple Support for billing help.
 
 ## User Responsibilities
 
